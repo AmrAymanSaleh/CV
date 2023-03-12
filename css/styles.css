@@ -1,6 +1,9 @@
 html,body{
   scroll-behavior: smooth;
 }
+p{
+  font-family: 'Quicksand', sans-serif;
+}
 
 body{
     color:#40514e;
@@ -123,7 +126,7 @@ color: #ffffff;
 }
 /* section V spacing */
 .spacing{
-    margin:5% 0px;
+    margin:10% 0px;
 }
 .middle-container{
     margin:100px 0;
@@ -178,9 +181,9 @@ a{
     font-size: 20px;
 }
 
-a:hover{
+/* a:hover{
     color: #C3ACD0;
-}
+} */
 
 .btn {
     -webkit-border-radius: 20;
@@ -246,7 +249,7 @@ a:hover{
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  position: fixed;   top: 6%;   width: 100%;   z-index: 100;
+  position: fixed;   top: 3%;   width: 100%;   z-index: 100;
 }
 .snip1143 * {
   box-sizing: border-box;
@@ -305,7 +308,7 @@ html {
 }
 
 
-.row{
+/* .row{
   max-width: 1500px;
   height: 500px;
   margin: 32px auto;
@@ -316,24 +319,23 @@ html {
   width: 100%;
   border-radius: 30px;
 
-}
-
-.cv-img{
-  width: 62%;
-  float: center;
-  border-radius: 30px;
-  
-}
- /* .skill-row{
-  text-align: center;
-    padding: 2%;
-}
-.skill-row2{
-  text-align: center;
-  padding: 2%;
 } */
 
-/* .skill-img{
+.cv-img{
+  width: 100%;
+  height: 100%;
+  float: center;
+  /* border-radius: 30px; */
+  
+}
+ .skill-row a img{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+}
+.skill-row2 a img{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+} 
+
+.skill-img{
   width: 90%;
   float: center;
   margin-left: 50px; 
@@ -346,7 +348,7 @@ html {
   margin-left: 50px; 
   border-radius: 30px;
   
-}  */
+}  
 
 
 
@@ -397,12 +399,12 @@ html {
     transition: 1s ease;
 }
 
-.cv-img:hover{
+/* .cv-img:hover{
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 1s ease;
-}
+} */
 
 
 
@@ -690,10 +692,9 @@ body, button, input {
 }
 
 .container1 {
-  flex: 0 0 1150px ;
+  flex: 0 1 1200px;
   margin: auto;
   padding: 10px;
-  
   
 }
 
@@ -762,63 +763,63 @@ body, button, input {
   background: #999;
 }
 
-.screen-body1 {
+/* .screen-body1 {
   display: flex;
   
   
-}
+} */
 
-.screen-body-item1 {
+/* .screen-body-item1 {
   flex: 1;
   padding: 50px;
   margin: 150px;
  
-}
-
-/* .screen-body-item1.left1 {
-  display: flex;
-  flex-direction: column;
 } */
 
-/* .app-title1 {
+.screen-body-item1.left1 {
+  display: flex;
+  flex-direction: column;
+} 
+
+.app-title1 {
   display: flex;
   flex-direction: column;
   position: relative;
   color: #ea1d6f;
   font-size: 26px;
-} */
+} 
 
-/* .app-title1:after {
-  content: '';
+.app-title1:after {
+  /* content: ''; */
   display: block;
   position: absolute;
   left: 0;
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: ;
-} */
+  /* background:  */
+} 
 
-/* .app-contact1 {
+.app-contact1 {
   margin-top: auto;
   font-size: 8px;
   color: #888;
-} */
+} 
 
-/* .app-form-group1 {
+.app-form-group1 {
   margin-bottom: 15px;
-} */
+} 
 
-/* .app-form-group.message1 {
+ .app-form-group.message1 {
   margin-top: 40px;
-} */
+} 
 
-/* .app-form-group.buttons1 {
+ .app-form-group.buttons1 {
   margin-bottom: 0;
   text-align: right;
-} */
+} 
 
-/* .app-form-control1 {
+.app-form-control1 {
   width: 100%;
   padding: 10px 0;
   background: none;
@@ -829,30 +830,30 @@ body, button, input {
   text-transform: uppercase;
   outline: none;
   transition: border-color .2s;
-} */
+} 
 
-/* .app-form-control1::placeholder {
+.app-form-control1::placeholder {
   color: #666;
-} */
+} 
 
-/* .app-form-control1:focus {
+ .app-form-control1:focus {
   border-bottom-color: #ddd;
-} */
+} 
 
-/* .app-form-button1 {
+.app-form-button1 {
   background: none;
   border: none;
   color: #ea1d6f;
   font-size: 14px;
   cursor: pointer;
   outline: none;
-} */
+} 
 
-/* .app-form-button1:hover {
+.app-form-button1:hover {
   color: #b9134f;
-} */
+} 
 
-/* .credits1 {
+.credits1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -861,23 +862,23 @@ body, button, input {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   font-weight: normal;
-} */
+}
 
-/* .credits-link1 {
+.credits-link1 {
   display: flex;
   align-items: center;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-} */
+} 
 
-/* .dribbble1 {
+.dribbble1 {
   width: 20px;
   height: 20px;
   margin: 0 5px;
-} */
+} 
 
-/* @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
   }
@@ -907,4 +908,4 @@ body, button, input {
   .screen-body-item {
     padding: 0;
   }
-} */
+} 
